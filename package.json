@@ -1,0 +1,42 @@
+{
+  "name": "expose-s3",
+  "version": "0.1.0",
+  "description": "expost s3 bucket like a file system",
+  "main": "server.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.20",
+    "cors": "^2.5.3",
+    "localtunnel": "^1.5.0",
+    "minimist": "^1.1.1",
+    "s3-blob-store": "^0.0.5",
+    "send-data": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meandavejustice/expose-s3"
+  },
+  "keywords": [
+    "s3",
+    "bucket",
+    "fs",
+    "files",
+    "blob",
+    "static",
+    "public",
+    "amazon",
+    "aws"
+  ],
+  "bin": {
+    "expose-s3": "./bin.js"
+  },
+  "author": "meandave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meandavejustice/expose-s3/issues"
+  },
+  "homepage": "https://github.com/meandavejustice/expose-s3"
+}

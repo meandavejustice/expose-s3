@@ -1,0 +1,14 @@
+expose-s3 [path/to/config.json] [options]
+
+  --quiet,  -q   Be quiet
+  --tunnel, -t   Use localtunnel to expose via a public url
+
+  example config:
+  {
+    "accessKeyId": "YOUR_S3_ACCESS_ID",
+    "secretAccessKey": "YOUR_S3_ACCESS_KEY",
+    "region": "us-west-2",
+    "bucket": "YOUR_BUCKET_NAME",
+    "port": 7777
+  }
+
